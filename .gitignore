@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.so
+*.out
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE / Editor specific (Optional: comment out .vscode/ if you want to share launch/settings)
+# .vscode/ 
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.DS_Store
+nbproject/
+
+# Configuration files with secrets (NEVER COMMIT THESE)
+.env
+instance/ 
+
+# Compiled files
+*.pyc
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs and databases
+logs/
+*.log
+*.pot
+*.sqlite3 
+db.sqlite3
+celerybeat-schedule 
+*.pid 
+
+# Uploaded and processed files (runtime-generated)
+uploads/*
+!uploads/.gitkeep 
+processed_audio/*
+!processed_audio/.gitkeep 
+
+# Coverage reports
+coverage.xml
+.coverage
+
+# OS-specific
+.DS_Store
+Thumbs.db
